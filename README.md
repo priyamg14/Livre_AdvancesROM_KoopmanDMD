@@ -2,7 +2,7 @@
 
 # Supplementary Notebooks — Koopman / DMD / Mori–Zwanzig
 
-This folder contains two Jupyter notebooks that serve as supplementary material for a chapter on Koopman theory, Extended DMD (EDMD) and Mori–Zwanzig memory closure. The notebooks demonstrate algorithms on the Stuart–Landau oscillator and include plotting and simple experiments used to produce figures.
+This repository contains two Jupyter notebooks that serve as supplementary material for a chapter on Koopman theory, Extended DMD (EDMD) and Mori–Zwanzig memory closure. The notebooks demonstrate algorithms on the Stuart–Landau oscillator and include plotting and simple experiments used to produce figures.
 
 Notebooks
 - `Extended_DMD.ipynb` — construct observables, compute Koopman operator via DMD/EDMD, reconstruct data, and compare analytical eigenvalues with data-driven eigenvalues.
