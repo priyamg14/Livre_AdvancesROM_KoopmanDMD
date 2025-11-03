@@ -1,0 +1,156 @@
+# ==============================================
+# .gitignore for Python + Linux + PyTorch projects
+# ==============================================
+
+# ----------- Python bytecode -----------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ----------- Build / packaging -----------
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ----------- Virtual environments -----------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+.env
+.env.*
+
+# ----------- Logs / runtime files -----------
+*.log
+*.out
+*.err
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.old
+
+# ----------- Testing / coverage -----------
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# ----------- Type checking / static analysis -----------
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# ----------- Jupyter / IPython -----------
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ----------- PyTorch / ML training artifacts -----------
+checkpoints/
+saved_models/
+model_weights/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pkl
+runs/
+wandb/
+mlruns/
+tensorboard/
+events.out.tfevents.*
+outputs/
+logs/
+results/
+buffer_data/
+data/
+cache/
+tmp/
+tmp_*/
+*.npy
+*.npz
+*.h5
+
+# ----------- Hydra / experiment management -----------
+hydra_outputs/
+multirun/
+outputs_*/
+**/hydra.yaml
+**/.hydra/
+
+# ----------- HPC / cluster files -----------
+*.o*
+*.e*
+*.pbs.*
+core.*
+slurm-*.out
+job_logs/
+__temp__/
+_temp/
+tmp_*/
+
+# ----------- Linux system files -----------
+*.pid
+*.seed
+*.lock
+*.sock
+*.gz
+*.tar
+*.zip
+*.xz
+
+# ----------- IDE / editor configs -----------
+.vscode/
+*.code-workspace
+*.idea/
+*.iml
+
+# ----------- Data / generated files -----------
+*.csv
+*.tsv
+*.mat
+*.json
+*.pkl
+*.hdf5
+*.dat
+*.bin
+*.txt
+*.p
+*.pickle
+
+# ----------- Secrets / keys -----------
+*.pem
+*.key
+*.crt
+*.secret
+credentials/
+secrets/
+token_*
+api_keys.json
+
+# ----------- Misc -----------
+.DS_Store
+Thumbs.db
+
